@@ -9,5 +9,5 @@ class Configs(BaseSettings):
 
 
 def get_config():
-    # print(Configs())
+    print(Configs())
     return Configs()
