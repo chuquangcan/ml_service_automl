@@ -32,3 +32,6 @@ class GenericMultiModalPredictRequest(PredictRequest):
         default=["image"],
         title="Image columns",
     )
+
+    print("hel")
+
