@@ -22,6 +22,7 @@ def generic_multimodal_temp_predict(request: GenericMultiModalPredictRequest):
         },
         queue="ml_celery",
     )
+    print("end")
     return {
         "task_id": str(task_id),
         "send_status": "SUCCESS",
